@@ -24,9 +24,9 @@ const Sidebar = () => {
                  <span className='text-2xl text-green'>Abdul-Fattah </span>
                   <span className='text-2xl'> Abdul-Kareem </span>   
                 </h3>
-            <p className='px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200'>Software Developer</p>
+            <p className='px-2 py-1 my-3  rounded-full bg-dark-200'>Software Developer</p>
             <a  href="/assets/Abdul_Fattah_cv.pdf"
-        download="Abdul_Fattah_cv.pdf" className='flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 '> <GiTie className='w-6 h-6 '/> Download Resume</a>
+        download="Abdul_Fattah_cv.pdf" className='flex items-center justify-center px-2 py-1 my-3 rounded-full bg-dark-200 '> <GiTie className='w-6 h-6 '/> Download Resume</a>
             {/* Socail icons */}
              <div className='flex justify-around w-9/12 mx-auto my-5 text-green md:w-full'>
                  <a href="https://github.com/AwaabSingh">
@@ -40,7 +40,7 @@ const Sidebar = () => {
                  </a>
              </div>
             {/* Address */}
-            <div className='py-5 my-5 bg-gray-200 dark:bg-dark-200' style={{marginRight: '-1rem', marginLeft: '-1rem'}}>
+            <div className='py-5 my-5 bg-dark-200' style={{marginRight: '-1rem', marginLeft: '-1rem'}}>
                 <div className='flex items-center justify-center space-x-2'>
                     <GoLocation className='className="mr-2"'/> <span>Abuja</span>
                     </div>
