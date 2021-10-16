@@ -17,7 +17,7 @@ const index = () => {
          from Al-Hikmah University . I have 3+ years of experience in
         software Development.
        </h5>
-        <div className='flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100' style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem'}}>
+        <div className='flex-grow p-4 mt-5 bg-dark-100' style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem'}}>
             <h4 className='my-3 text-xl font-bold tracking-wide'>What I Do </h4>
             <p className="my-3 font-bold text-center uppercase text-green">Crazy Full Stack Developer Who Wants To Explore Every Tech Stack</p>
           
@@ -25,7 +25,7 @@ const index = () => {
                {services.map((service, i) => (
                  // eslint-disable-next-line react/jsx-key
                  <motion.div variants={fadeInUp}  
-                 className='bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1'>
+                 className=' rounded-lg bg-dark-200 lg:col-span-1'>
                    <ServiceCard service={service} key={i}/>
                  </motion.div>
                
