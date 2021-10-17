@@ -1,6 +1,7 @@
 import {AiFillGithub, AiFillLinkedin, AiFillTwitterCircle} from 'react-icons/ai'
 import {GoLocation} from  'react-icons/go'
 import {GiTie} from 'react-icons/gi'
+import { AiOutlineWhatsApp } from 'react-icons/ai'
 import { useTheme } from 'next-themes'
 import Image from 'next/image'
 
@@ -50,7 +51,7 @@ const Sidebar = () => {
                     </div>
                    
                     <p className='my-2'>adeoyin2828@gmail.com</p>
-                       <p className='my-2'>+234 907 273 9445 
+                       <p className='my-2'> +234 907 273 9445 
                       <br/>  +234 901 058 9115</p>
                 </div>
                 </div>
