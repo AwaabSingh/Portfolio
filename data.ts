@@ -209,7 +209,7 @@ export const projects: IProject[] = [
     github_url: "https://github.com/AwaabSingh/ContactKeeper",
     category: ["node", "react", "mongo"],
     description:
-      "Basic Realtime Chat App where one can create a room can talk to each other",
+     "A web application for managing contacts",
     key_techs: ["React", "Node", "Express", "Css"],
   },
 
