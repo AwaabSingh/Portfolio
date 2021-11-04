@@ -219,10 +219,10 @@ export const projects: IProject[] = [
     image_path: "https://res.cloudinary.com/dgfdgi5hf/image/upload/v1636008468/Screenshot_from_2021-11-04_07-37-49_rguxiy.png",
     deployed_url: "https://expense-tracker-dun-six.vercel.app/",
     github_url: "https://github.com/AwaabSingh/Expense-Tracker",
-    category: [ "react", "Css"],
+    category: [ "react"],
     description:
       "A web application that helps to keep an accurate record of your money inflow and outflow.",
-    key_techs: ["React"],
+    key_techs: ["React", "Css"],
   },
 
   // {
