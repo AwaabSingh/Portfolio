@@ -213,17 +213,17 @@ export const projects: IProject[] = [
     key_techs: ["React", "Node", "Express", "Css"],
   },
 
-  // {
-  //   id: 5,
-  //   name: "Tweeter Clone",
-  //   image_path: "/images/tweetme.jpg",
-  //   deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
-  //   github_url: "https://github.com/Dey-Sumit/tweetme",
-  //   category: [ "react"],
-  //   description:
-  //     "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
-  //   key_techs: ["React", "Django", "Django REST API"],
-  // },
+  {
+    id: 5,
+    name: "Expense Tracker",
+    image_path: "https://res.cloudinary.com/dgfdgi5hf/image/upload/v1636008468/Screenshot_from_2021-11-04_07-37-49_rguxiy.png",
+    deployed_url: "https://expense-tracker-dun-six.vercel.app/",
+    github_url: "https://github.com/AwaabSingh/Expense-Tracker",
+    category: [ "react", "Css"],
+    description:
+      "A web application that helps to keep an accurate record of your money inflow and outflow.",
+    key_techs: ["React"],
+  },
 
   // {
   //   id: 6,
