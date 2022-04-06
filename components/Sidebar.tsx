@@ -15,7 +15,7 @@ const Sidebar = () => {
     
     return (
         <div>
-            <Image src="/images/Awaab.jpeg" alt="user avater" 
+            <Image src="/images/Abdul-Fattah.jpg" alt="user avater" 
              className= 'mx-auto rounded-full'
              height='128'
              width='128'
